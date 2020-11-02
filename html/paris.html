@@ -1,0 +1,562 @@
+<html>
+
+<head>
+    <title>Paris</title>
+
+    <link href="../css/front.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div>
+        <div>
+            <nav class="navbar1">
+                <!-- Navbar content -->
+                <!-- <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">City,Area or
+                    Hotel</a>
+                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Check in</a>
+                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Check out</a>
+                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Rooms and Guest</a>
+               -->
+                <input class="city_input" type="text" placeholder="City 0r Hotel name">
+                <input class="checkin_input" type="text" placeholder="Check-in">
+                <input class="checkout_input" type="text" placeholder="Check-out">
+                <input class="guest_input" type="text" placeholder="Rooms & Guests">
+                <button class="sumbit_input" type="submit" value="submit">Submit</button>
+
+            </nav>
+        </div>
+        <div class="top">
+            <p class="delhi">HOTELS IN PARIS</p>
+            <div class="maps1">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7793166021147!2d103.85627581399778!3d1.3076124620757947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sen!2sin!4v1585380384094!5m2!1sen!2sin"
+                    width="500" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+
+            </div>
+        </div>
+        <div class="map_content">
+
+        </div>
+
+        <div class="filters">
+            <h5 class="k1">Popular Filters</h5>
+            <div class="facilities">
+                <strong>FACILITIES</strong>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Free WiFi
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Swimming Pool
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Spa and Wellness Centre
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Parking
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Room Service
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Non-smoking rooms
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Fitness Centre
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+
+                    Airport Shuttle</div>
+
+
+
+            </div>
+            <div class="room_faci">
+                <strong>ROOM FACILITIES</strong>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Air Conditioning
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Balcony
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Flat Screen
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Sound Proofing
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Private Bathroom
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Terrace
+                </div>
+
+
+
+            </div>
+            <div class="district">
+                <strong>DISTRICT</strong>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    South delhi
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Rohini
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Chandni Chowk
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Karol bagh
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Aerocity
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Cannaught Place
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Nehru Place
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    West Delhi
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    East Delhi
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="Parking">
+                    Mahipalpur
+                </div>
+
+
+            </div>
+        </div>
+        <div class="dis">
+            <p class="pa1"> Congratulations! </p><br>
+            <p class="pa2">You get an extra 5% OFF today.</p>
+
+
+            <button type="submit" class="activate" value="submit">Activate coupon</button>
+
+        </div>
+        <a href="../html/eiffel_paris.html">
+            <div class="hotel1">
+                <div class="hotel_img">
+
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/eiffel1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/eiffel2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/eiffel3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="../img/eiffel4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/eiffel5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/eiffel6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="../img/eiffel7.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/eiffel8.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/eiffel9.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotel_map1">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.75769363329!2d2.277019593516824!3d48.858950681555925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6701ba61710b1%3A0xc0eb9459adc710c5!2sH%C3%B4tel%20Eiffel%20XV!5e0!3m2!1sen!2sin!4v1585380465044!5m2!1sen!2sin"
+                        width="200" height="100" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="hotel_con">
+                    <p class="p1">Hotel Eiffel XV</p><br>
+                    <p class="p2"> Aerocity<br>
+                        3.9km from Delhi Airport<br></p>
+                    <!----     <svg class="oval1" width="300" height="60">
+                        <circle cx="500" cy="300" r="10" fill="blue"></circle>
+                    </svg>-->
+                    <strong> Free Wifi Airport Transfer Free cancellation Breakfast</strong>
+                    <div class="price1">
+                        <div class="rating">
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        </div>
+                        <p class="p3"> <br>price per night</p><br>
+                        <p class="p4"> Rs. 4,472</p>
+                    </div>
+                </div>
+            </div>
+
+        </a>
+        <a href="../html/luxemborg_paris.html">
+            <div class="hotel2">
+                <div class="hotel_img">
+
+
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/luxem1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/luxem2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/luxem3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="../img/luxem4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/luxem5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/luxem6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="../img/luxem7.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/luxem8.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/luxem9.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotel_map2">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.6280934481015!2d2.33497181487622!3d48.84623222855412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671db36de687b%3A0x791dd61b089f98b!2sLuxembourg%20Gardens!5e0!3m2!1sen!2sin!4v1585380729107!5m2!1sen!2sin"
+                        width="200" height="100" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="hotel_con">
+                    <p class="p1">2 Bedroom Apartment- Luxemborg garden</p><br>
+                    <p class="p2"> Mehrauli<br>
+                        440 m from Qutub Minar<br></p>
+                    <strong> Kitchenette Caretaker Living room Breakfast</strong>
+
+                    <div class="price2">
+                        <div class="rating">
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        </div>
+                        <p class="p3"> <br>price per night</p><br>
+                        <p class="p4"> Rs. 1,572</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="../html/villa_paris.html">
+            <div class="hotel3">
+                <div class="hotel_img">
+
+
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/villa1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/villa2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/villa3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="../img/villa4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/villa5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/villa6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="../img/villa7.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/villa8.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/villa9.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel_map3">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.488722776897!2d2.34491661502506!3d48.84889030933064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e6fbff201b%3A0x4053aeaad84f1f55!2sVilla%20Panth%C3%A9on!5e0!3m2!1sen!2sin!4v1585380797994!5m2!1sen!2sin"
+                            width="200" height="100" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="hotel_con3">
+                        <p class="p1">Villa Pantheon</p><br>
+                        <p class="p2"> Aerocity<br>
+                            3.9km from Delhi Airport<br></p>
+                        <strong> Free Wifi Airport Transfer Free cancellation Breakfast</strong>
+
+                        <div class="price3">
+                            <div class="rating">
+                                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            </div>
+                            <p class="p3"> <br>price per night</p><br>
+                            <p class="p4"> Rs. 4,472</p>
+                        </div>
+                    </div>
+                </div>
+        </a>
+        <a href="../html/cluny_paris.html">
+            <div class="hotel4">
+                <div class="hotel_img">
+
+
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/cluny1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/cluny2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/cluny3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="../img/cluny4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/cluny5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/cluny6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="../img/cluny7.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/cluny8.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/cluny9.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel_map4">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10501.95126307435!2d2.3383505310082824!3d48.84890760746187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671dd6d6590cd%3A0x1172c639ab19d868!2sH%C3%B4tel%20Cluny%20Sorbonne!5e0!3m2!1sen!2sin!4v1585380892216!5m2!1sen!2sin"
+                            width="200" height="100" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="hotel_con4">
+                        <p class="p1">Hotel Cluny Sorborne</p><br>
+                        <p class="p2"> Aerocity<br>
+                            3.9km from Delhi Airport<br></p>
+                        <strong> Free Wifi Airport Transfer Free cancellation Breakfast</strong>
+
+                        <div class="price4">
+                            <div class="rating">
+                                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            </div>
+                            <p class="p3"> <br>price per night</p><br>
+                            <p class="p4"> Rs. 4,472</p>
+                        </div>
+                    </div>
+                </div>
+        </a>
+        <a href="../html/konfidential_paris.html">
+            <div class="hotel5">
+                <div class="hotel_img">
+
+
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/konfi1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/konfi2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/konfi3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="../img/konfi4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/konfi5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/konfi6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="../img/konfi7.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/konfi8.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/konfi9.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotel_map5">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.8393832246984!2d2.3404334150256076!3d48.86127310845883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e21879ae80f%3A0x814337c3dd5e8070!2sH%C3%B4tel%20Konfidentiel!5e0!3m2!1sen!2sin!4v1585380975856!5m2!1sen!2sin"
+                        width="200" height="100" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="hotel_con">
+                    <p class="p1">Hotel Konfidential Paris</p><br>
+                    <p class="p2"> Aerocity<br>
+                        3.9km from Delhi Airport<br></p>
+                    <strong> Free Wifi Airport Transfer Free cancellation Breakfast</strong>
+
+                    <div class="price5">
+                        <div class="rating">
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                            <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        </div>
+                        <p class="p3"> <br>price per night</p><br>
+                        <p class="p4">Rs. 4,472</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+
+
+        <div class="bottom">
+          
+            <div class="bot2">
+                <p class="bot_content"> <u><strong> Important Links</strong></u><br><br>
+                    <a href="../html/Help.html"> Help</a><br>
+                    <a href="../html/Contact.html"> Contact</a> <br>
+                    <a href="../html/FAQs.html">FAQs</a><br>
+                    <a href="../html/privacy_policy.html"> Privacy Policy</a><br>
+                    <a href="../html/Terms&Conditions.html">Terms & Conditions</a></p>
+            </div>
+            <div class="bot1">
+                <p class="bot_content"> <u><strong> Top destinations</strong></u><br><br>
+
+                    <a href="../html/delhi.html"> Hotels in Delhi</a> <br>
+                    <a href="../html/mumbai.html"> Hotels in Mumbai</a><br>
+                    <a href="../html/rajasthan.html">Hotels in Rajasthan</a><br>
+
+                    <a href="../html/paris.html"> Hotels in Paris</a><br>
+
+                    <a href="../html/singapore.html"> Hotels in Singapore</a><br>
+
+            </div>
+        
+            <ul class="icon">
+                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

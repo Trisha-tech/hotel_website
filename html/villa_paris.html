@@ -1,0 +1,533 @@
+<html>
+
+<head>
+    <title>Villa Pantheon Paris</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="../css/front.css" rel="stylesheet" type="text/css">
+
+    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+
+
+    <div class="ext">
+
+            <div>
+                <nav class="navbar1">
+                   <input class="city_input" type="text" placeholder="City 0r Hotel name">
+                   <input class="checkin_input" type="text" placeholder="Check-in">
+                   <input class="checkout_input" type="text" placeholder="Check-out">
+                   <input class="guest_input" type="text" placeholder="Rooms & Guests">
+                   <button class="sumbit_input" type="submit" value="submit">Submit</button>   
+                </nav>
+            </div>
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="Help.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="Discounts.html">City</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Hotel</li>
+            </ol>
+        </nav>
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+                <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+                <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/villa1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/villa2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/villa3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="../img/villa4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/villa5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/villa6.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="../img/villa7.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/villa8.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/villa9.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+        <div class="picture" data-toggle="modal" data-target=".bd-example-modal-lg">
+            <figure class="figure">
+                <img src="../img/villa1.jpg" class="figure-img img-fluid rounded" alt="fox1.jpg">
+                <figcaption class="figure-caption">See Photos</figcaption>
+            </figure>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <table>
+                        <tr>
+                            <td>
+                                <figure class="figure1">
+                                    <img src="../img/villa1.jpg" class="figure-img img-fluid rounded" alt="fox1.jpg">
+                                </figure>
+                            </td>
+                            <td>
+                                <figure class="figure2">
+                                    <img src="../img/villa2.jpg" class="figure-img img-fluid rounded" alt="fox1.jpg">
+                                </figure>
+                            </td>
+                            <td>
+                                <figure class="figure3">
+                                    <img src="../img/villa3.jpg" class="figure-img img-fluid rounded" alt="fox1.jpg">
+                                </figure>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <figure class="figure4">
+                                    <img src="../img/villa4.jpg" class="figure-img img-fluid rounded" alt="fox1.jpg">
+                                </figure>
+                            </td>
+                            <td>
+                                <figure class="figure5">
+                                    <img src="../img/villa5.jpg" class="figure-img img-fluid rounded" alt="fox1.jpg">
+                                </figure>
+                            </td>
+                            <td>
+
+                                <figure class="figure6">
+                                    <img src="../img/villa6.jpg" class="figure-img img-fluid rounded" alt="fox1.jpg">
+                                </figure>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <figure class="figure7">
+                                    <img src="../img/villa7.jpg" class="figure-img img-fluid rounded" alt="fox1.jpg">
+                                </figure>
+                            </td>
+                            <td>
+                                <figure class="figure8">
+                                    <img src="../img/villa8.jpg" class="figure-img img-fluid rounded" alt="fox1.jpg">
+                                </figure>
+                            </td>
+                            <td>
+                                <figure class="figure9">
+                                    <img src="../img/villa9.jpg" class="figure-img img-fluid rounded" alt="fox1.jpg">
+                                </figure>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+        <div class="maps">
+            <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.488722776897!2d2.34491661502506!3d48.84889030933064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e6fbff201b%3A0x4053aeaad84f1f55!2sVilla%20Panth%C3%A9on!5e0!3m2!1sen!2sin!4v1585380797994!5m2!1sen!2sin"
+                            width="500" height="250" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <br><br>
+
+        <div class="location">
+            <h4>VILLA PANTHEON</h4>
+
+
+            <H5>41, rue des Ecoles 75005 PARIS</H5>
+                <div class="rating">
+                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                <input type="radio" name="star" id="star1"><label for="star1"></label>
+                <input type="radio" name="star" id="star1"><label for="star1"></label>
+            </div>
+                
+                
+            <br><br>
+            <h5>Location:</h5>Located in the 5th arrondissement of Paris, Villa Pantheon Hotel is easily reachable within a 10-minute walk from major attractions like the Pantheon, Luxembourg Palace and Odeon Theatre. Maubert - Mutualite metro station is just 2 minutes walk from the property while Charles de Gaulle Airport is roughly a 40-minute drive away. Modern meeting facilities are available within the premises for the comfort of corporate travellers. Ensuring a pleasant stay, the hotel provides an inner courtyard, 24-hour front desk facility, concierge service, multi-lingual staff and free Wi-Fi acce> Featuring warm interiors with classic Scottish decor, wooden furnishing and oiled parquet flooring, the hotels 59 rooms are designed for a comfortable nights sleep. All guest rooms are appointed with individually controlled air conditioning, TV with satellite channels, work desk, telephone, mini bar and free Wi-Fi access. Shower/tub facility, hairdryer, heated towel rail and necessary toiletries are available in priv A healthy breakfast is offered daily in the hotels dining area. Guests can head to the on-site So Scottish Bar and The Bridge Bar and Tea House to relish fine tea, cocktails and wines along with lip-smacking snacks. Explore the nearby dining venues to enjoy authentic delicacies from around the world. Satiate cravings for flavoursome Indian dishes at Le Maharajah Restaurant, reachable within 5 minu The historic Notre Dame Cathedral is only 600 meters from Villa Pantheon Hotel.
+        </div><br>
+        <div>
+
+
+
+
+
+
+        <div class="faci">
+            <div>
+                <h4>FACILITIES at Red Fox Hotel Delhi Airport</h4><br>
+                <div class="f1">
+
+                    <table>
+                        <tr>
+
+                            <td>
+                                <div class="f2">
+                                    <h4>Room Service</h4>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="f3">
+                                    <h4>Restaurant</h4>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="f4">
+                                    <h4>Elevator/Lift</h4>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="f5">
+                                    <h4>Room Service</h4>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="fac1">
+                    <strong> FOOD AND DRINKS</strong><br>
+
+                    Restaurant<br>
+                 
+                </div>
+                <br><br>
+                <br><br>
+               
+        
+                <div class="fac2">
+                    <strong> TRANSFERS</strong><br>
+
+                   Paid Airport Transfer<br>
+                   
+                </div>
+                <div class="fac3">
+                    <strong> BUSINESS CENTER AND CONFERENCES</strong><br>
+
+                  Banquet
+                
+            </div>
+            
+                <div class="fac4">
+                    <strong> HEALTH AND WELLNESS</strong><br>
+                    Gym
+
+                </div>
+                <div class="fac5">
+                    <strong> COMMON AREA</strong><br>
+Library
+                    Lounge<br>
+                    Reception<br>
+                    Seating Area
+                
+            </div>
+            <br><br>
+            
+
+                <div class="fac6">
+                    <strong> SAFETY AND SECURITY</strong><br>
+
+                    Safe<br>
+                    
+                </div><br><br>
+                <div class="fac7">
+                    <strong> MEDIA AND TECHNOLOGY</strong><br>
+TV
+                   
+                </div>
+
+                <br><br>
+                <div class="b1">
+
+
+                    <u> <strong>BASIC FACILITIES</strong></u> <br><br>
+
+                    <table>
+                        <tr>
+                            <td>
+                                <ul type="square">
+                                    <li>Room Service</li><br>
+                                    <li>Power Backup</li><br>
+                                    <li>Elevator Lift</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul type="square">
+                                    <li>Paid Wi-Fi </li><br>
+                                  
+                                </ul>
+                            </td>
+                            <td>
+                                <ul type="square">
+                                    <li>Vending Machine</li><br>
+                                    <li>Air Conditioning (Room controlled)</li>
+                                    <br>
+                                    
+                                </ul>
+                            </td>
+                            <td>
+                                <ul type="square">
+                                    <li> Smoking Rooms</li><br>
+                                    <li>Laundry Service</li><br>
+                                    <li> Parking</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul type="square">
+                                    <li>Telephone</li><br>
+                                    <li>Refrigerator</li><br>
+                                 
+
+                                </ul>
+                            </td>
+                            <td>
+                                <ul type="square">
+                                    <li> Newspaper</li><br>
+                                    <li> Public Restrooms</li><br>
+                                    <li>Umbrellas</li>
+
+                                </ul>
+                            </td>
+                            <td>
+
+                                <ul type="square">
+                                 
+                                    <li>Attached Bathroom</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+
+
+                </div>
+                <div class="b2">
+                    <u> <strong> GENERAL SERVICES</strong></u><br><br>
+                    <table class="table_space">
+                        <tr>
+                            <td>
+                                <ul type="square">
+                                    <li> Luggage Storage</li><br>
+                                    <li> Concierge</li>
+
+                                </ul>
+                            </td>
+                            <td>
+                                <ul type="square">
+                                    <li> Mail Services</li><br>
+                                    <li>Luggage Assistance</li>
+
+                                </ul>
+                            </td>
+                            <td>
+                                <ul type="square">
+                                    <li> Doctor on Call</li><br>
+                                    <li>Ticket Tour Assistance </li>
+
+                                </ul>
+                            </td>
+                            <td>
+                                <ul type="square">
+                                  
+
+                                </ul>
+                            </td>
+                            <td>
+                                <ul type="square">
+                                  
+                                </ul>
+                            </td>
+                            <td>
+                                <ul type="square">
+                                    <li> Bellboy Service</li><br>
+                                    <li> Electrical Sockets</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="rules">
+            <h4>Hotel Rules and Policies</h4> <br>
+            <h6> Check in: 2 PM | Check-out: 12 PM</h6>
+        </div>
+
+        <br><br>
+
+        <div class="reviews_eiffel">
+            <h4> REVIEWS AND RATINGS</h4> <br>
+            <div class="media">
+
+                <div class="media-body">
+                    <h5 class="mt-0"> Friendly, helpful, brilliant location</h5>                  
+markhC3794ZY, COUPLES Mar 18, 2020<br><br>
+My girlfriend and I arrived here just as the bars and restaurants were about to close down during the Coronavirus epidemic, but the staff were brilliant and helped us through it. We managed just one meal on the night we arrived at the excellent bistro next door before the lock down, and then had to rely on takeout food and drink from various cafes nearby. The team here helped with phone calls and locations, and a bottle opener when we had to resort to drinking takeout wine in the lobby!! Situated close to Notre Dame, the Sarbones and the Pantheon, there was plenty to explore on foot. The room was clean and the hotel had plenty of character. Whilst we had to cut our stay short, we’d like to go back when things return to normal.
+<div class="rating">
+    <input type="radio" name="star" id="star1"><label for="star1"></label>
+    <input type="radio" name="star" id="star1"><label for="star1"></label>
+    <input type="radio" name="star" id="star1"><label for="star1"></label>
+    <input type="radio" name="star" id="star1"><label for="star1"></label>
+    <input type="radio" name="star" id="star1"><label for="star1"></label>
+</div>              
+</div>
+
+            </div>
+            <div class="media">
+
+                <div class="media-body">
+                    <h5 class="mt-0"> Good place</h5>                   
+                    dominicmussack, Mar 17, 2020<br><br>                   
+                    Went to Paris to stay just for a night, two days. Nice place to visit for a short trip, right near the center of the city, with lots of places to visit, and very comfortable. Surprisingly big rooms, too!
+                    <div class="rating">
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="media">
+
+                <div class="media-body">
+                    <h5 class="mt-0">Perfect hotel in the perfect location </h5>                    
+                    Shotaro_Kaneda, COUPLES Mar 08, 2020<br><br>                    
+                    My wife and I stayed for 4 nights at Villa Pantheon, the hotel is lovely, the staff were all exceptionally friendly and helpful and the location is superb with so many great sights near by, we couldn’t have asked for more
+                    <div class="rating">
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="media">
+
+                <div class="media-body">
+                    <h5 class="mt-0">  Great hotel</h5>                 
+                    dstern333, COUPLES Mar 06, 2020<br><br>                    
+                    Great location & quiet rooms. My wife & I loved that we could walked to a lot of places close to the hotel. Metro was a couple blocks away too. Breakfast was perfect every morning. Definitely would recommend this hotel.
+                    <div class="rating">
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="media">
+
+                <div class="media-body">
+                    <h5 class="mt-0"> Perfect location, welcoming staff</h5>
+                    <div class="rating">
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                        <input type="radio" name="star" id="star1"><label for="star1"></label>
+                    </div>
+                   
+                    883eleh, COUPLES Mar 05, 2020<br><br>                    
+                    The hotel is very well located between Notre Damme and the Pantheon. It has a small bar with friendly staff both on reception and at the bar. We went for a executive room which was a very good size given the age of the building and in Paris with three balconies overlooking the street. It was very clean and the bathroom had clearly recently been re done. We had such a lovely break and would happily go back.
+                </div>
+
+            </div>
+         
+        </div>
+        <div class="bottom1">
+         
+            <div class="bot2">
+                <p class="bot_content"> <u><strong> Important Links</strong></u><br><br>
+                   <a href="../html/Help.html"> Help</a><br>
+                   <a href="../html/Contact.html"> Contact</a> <br>
+                   <a href="../html/FAQs.html">FAQs</a><br>
+                  <a href="../html/privacy_policy.html">  Privacy Policy</a><br>
+                   <a href="../html/Terms&Conditions.html">Terms & Conditions</a></p>
+            </div>
+            <div class="bot1">
+                <p class="bot_content"> <u><strong> Top destinations</strong></u><br><br>
+                
+             <a href="../html/delhi.html">  Hotels in Delhi</a> <br>
+               <a href="../html/mumbai.html"> Hotels in Mumbai</a><br>
+               <a href="../html/rajasthan.html">Hotels in Rajasthan</a><br>
+
+               <a href="../html/paris.html"> Hotels in Paris</a><br>
+
+               <a href="../html/singapore.html"> Hotels in Singapore</a><br>
+
+            </div>
+        
+            <ul class="icon">
+                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

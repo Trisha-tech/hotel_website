@@ -1,0 +1,327 @@
+<html>
+
+<head>
+    <title>Hotel Locating Website</title>
+
+    <link href="./css/front.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="back_div">
+        <div class="centre">
+            <nav class="navbar">
+                <a class="link" href="./html/delhi.html">Delhi</a>
+                <a class="link" href="./html/mumbai.html">Mumbai</a>
+                <a class="link" href="./html/rajasthan.html">Rajasthan</a>
+                <a class="link" href="./html/paris.html">Paris</a>
+                <a class="link" href="./html/singapore.html">Singapore</a>
+
+                <a class="link" href="./html/sign_in.html">Sign In</a>
+                <a class="link" href="./html/create_account.html">Create Account</a>
+
+                <div class="currency">
+                    <select class="add_type">
+                        <option value="inc" selected><img src="fox1.jpg" class="pic">Argentina</option>
+                        <option value="exp">Australia</option>
+                        <option value="exp">Belgia</option>
+                        <option value="exp">Brazil</option>
+                        <option value="exp">Canada</option>
+                        <option value="exp">Cesko</option>
+                        <option value="exp">Chile</option>
+                        <option value="exp">Colombia</option>
+                        <option value="exp">Denmark</option>
+                        <option value="exp"><img src="fox1.jpg" class="pic">Deutschland</option>
+                        <option value="exp">Ecuador</option>
+                        <option value="exp">Emada</option>
+                        <option value="exp">Espana</option>
+                        <option value="exp">France</option>
+                        <option value="exp">India</option>
+                        <option value="exp">Indonesia</option>
+                        <option value="exp">Ireland</option>
+                        <option value="exp">Italia</option>
+
+                    </select>
+                </div>
+            </nav>
+
+            <div class="dropleft">
+                <div class="btn-group dropleft">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Dropleft
+                    </button>
+                    <div class="dropdown-menu">
+
+                    </div>
+                </div>
+                <!-- Split dropleft button -->
+                <div class="btn-group">
+                    <div class="btn-group dropleft" role="group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropleft</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <!-- Dropdown menu links -->
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-secondary">
+                        Split dropleft
+                    </button>
+                </div>
+            </div>
+
+            <div class="content">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="city">
+                                <p class="v1"> City or Hotel</p>
+                                <div class="city_name">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="text" class="form-control"
+                                                    placeholder="City or Hotel name">
+                                            </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="check-in">
+                                <p class="v1"> Check-in</p>
+                                <div class="in_date">
+                                    <select class="form-control">
+
+
+                                        <option>Check-in</option>
+
+                                    </select>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="check-out">
+                                <p class="v1"> Check-out</p>
+                                <div class="out_date">
+                                    <select class="form-control">
+                                        <option>Check-out</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="guest">
+                                <p class="v1">Rooms or Guests</p>
+                                <div class="guest_no">
+                                    <select class="form-control">
+                                        <option>Rooms or Guests</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="photo">
+                <img class="des" src="./img/des8.jpg">
+            </div>
+
+            <div class="drop">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Select Destination
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="./html/delhi.html">Delhi</a>
+                        <a class="dropdown-item" href=".html/mumbai.html">Mumbai</a>
+                        <a class="dropdown-item" href=".html/rajasthan.html">Rajasthan</a>
+                        <a class="dropdown-item" href="./html/paris.html">Paris</a>
+                        <a class="dropdown-item" href="./html/singapore.html">Singapore</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom2">
+                <p class="place">More Places to Visit</p>
+            </div>
+
+            <div class="carousel1">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/his1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his11.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his22.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his33.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel2">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/his11.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his111.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his22.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his222.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his33.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his333.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel3">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/his111.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his222.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his333.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/his3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary">Search</button>
+        </div>
+
+
+        <div class="dropleft">
+            <div class="btn-group dropleft">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+
+                </button>
+                <div class="dropdown-menu">
+                    <!-- Dropdown menu links -->
+                    <a class="dropdown-item" href="...">
+                        <hr>Create Account<button type="button" class="btn btn-warning">Warning</button></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="...">
+                        Favorites</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="...">
+                        Bookings</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="...">
+                        Reviews</a>
+                    <div class="dropdown-divider"></div>
+
+
+                    <a class="dropdown-item" href="...">
+                        Contact Us</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./html/FAQs.html">
+                        FAQs</a>
+                    <div class="dropdown-divider"></div>
+
+
+                    <a class="dropdown-item" href="./html/privacy_policy.html">
+                        Privacy Policy</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./html/Terms&Conditions.html">
+                        Terms&Conditions</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom3">
+
+            <div class="bot2">
+                <p class="bot_content"> <u><strong> Important Links</strong></u><br><br>
+                    <a href="./html/Help.html"> Help</a><br>
+                    <a href="./html/Contact.html"> Contact</a> <br>
+                    <a href="./html/FAQs.html">FAQs</a><br>
+                    <a href="./html/privacy_policy.html"> Privacy Policy</a><br>
+                    <a href="./html/Terms&Conditions.html">Terms & Conditions</a></p>
+            </div>
+            <div class="bot1">
+                <p class="bot_content"> <u><strong> Top destinations</strong></u><br><br>
+
+                    <a href="./html/delhi.html"> Hotels in Delhi</a> <br>
+                    <a href="./html/mumbai.html"> Hotels in Mumbai</a><br>
+                    <a href="./html/rajasthan.html">Hotels in Rajasthan</a><br>
+
+                    <a href="./html/paris.html"> Hotels in Paris</a><br>
+
+                    <a href="./html/singapore.html"> Hotels in Singapore</a><br>
+
+            </div>
+            <ul class="icon">
+                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
