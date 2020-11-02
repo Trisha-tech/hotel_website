@@ -1,4 +1,4 @@
-# hotel_website.github.io
+# hotel_website
 
 
 HOTEL LOCATING WEBSITE LINK:
